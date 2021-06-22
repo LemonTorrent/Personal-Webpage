@@ -26,9 +26,23 @@
 }
 
 /* Style page content */
-.main {
+.page {
+  display: flex;
+  flex-direction: column;
   margin-left: 160px; /* Same as the width of the sidebar */
   padding: 0px 10px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.header {
+  font-size: 50px;
+}
+
+.intro {
+  padding-top: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
