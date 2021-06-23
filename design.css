@@ -50,3 +50,9 @@
   .page-left-bar {padding-top: 15px;}
   .page-left-bar a {font-size: 18px;}
 }
+
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
